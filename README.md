@@ -1,9 +1,13 @@
 **Tanvi Tomar **
+
+
 #Getting Started - 
 To run the App, follow these steps - 
     1. npm install
     2. npm start
 and you can run the app on your localhost.
+
+
 
 
 #Login - 
