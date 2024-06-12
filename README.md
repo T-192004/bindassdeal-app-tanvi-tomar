@@ -24,6 +24,8 @@ and you can run the app on your localhost.
     for todolist item (a single task)
     if you have completed the task, then click on the todo icon on your left of the item, respectively.
     or if you want to delete the task, then click on the todo Delete icon on your right side, respectively.
+    your  data will be stre in the localstorage
+    
 
 #Important Note - 
     In this App, we have applied protected route component, due to if unAuthenticated user cannot navigate to home page.
