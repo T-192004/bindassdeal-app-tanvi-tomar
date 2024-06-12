@@ -8,7 +8,7 @@ const Home = () => {
   const todoListLocalStorage = JSON.parse(localStorage.getItem('list'));
   console.log(todoListLocalStorage);
   const [todoList, setTodoList] = useState(todoListLocalStorage !== null ? todoListLocalStorage : []);
-  const [tag, setTag] = useState('');
+  const [tag, setTag] = useState('Education');
   const [title, setTitle] = useState('');
   const [todo, setTodo] = useState('');
   const isEmpty = todoList.length === 0;
