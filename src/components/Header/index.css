@@ -1,0 +1,25 @@
+
+
+.nav-header{
+    background-size: cover;
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFD;
+    box-shadow: #FFFFFD 4px 4px;
+}
+.website-logo{
+    width: 120px;
+    height: 120px;
+}
+.logout-btn{
+    background-color: #01BAE9;
+    width: 150px;
+    padding: 8px;
+    border: none;
+    color: #FFFFFD;
+    font: 18px 'Roboto';
+    border-radius: 5px;
+}
