@@ -12,7 +12,10 @@ const Login = props => {
   const navigate = useNavigate();
 
   const onSuccessSubmit = jwtToken => {
-    Cookies.set(jwtToken, 'jwt_token', {expires: 30, path: '/'});
+    Cookies.set('jwt_token', jwtToken, {
+      expires: 30,
+      path: '/',
+    })
     navigate("/");
   };
 
